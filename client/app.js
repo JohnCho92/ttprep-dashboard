@@ -11,7 +11,8 @@ const App = props => {
     palette: {
       primary: {
         main: '#24497A',
-        light: '#D3D3D3'
+        light: '#D3D3D3',
+        dark: '#A3BCF9'
       },
       secondary: {
         main: '#3B79CC',

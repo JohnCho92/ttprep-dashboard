@@ -7,5 +7,4 @@
 export {default as StudentSummary} from './dashboard/StudentSummary'
 export {default as Sidebar} from './Sidebar'
 export {default as Navbar} from './Navbar'
-export {default as WelcomePage} from './WelcomePage'
 export {Login, Signup} from './AuthForm'

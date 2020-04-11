@@ -40,6 +40,7 @@ const AuthForm = ({name, displayName, handleSubmit, error}) => {
     <div>
       <div>
         <div className="context">
+          <h1>Welcome to TestTakers</h1>
           <Container component="main" maxWidth="xs">
             <CssBaseline />
             <div className={classes.paper}>
@@ -108,7 +109,6 @@ const AuthForm = ({name, displayName, handleSubmit, error}) => {
             <li />
             <li />
             <li />
-            {/* <img src="https://png-images.ru/wp-content/uploads/2015/10/10/10908/png/wineglass_PNG2912.png" /> */}
           </ul>
         </div>
       </div>

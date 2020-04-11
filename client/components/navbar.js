@@ -14,21 +14,16 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     justifyContent: 'flex-start',
-    color: theme.palette.navbar
-    // flexGrow: 1
+    color: 'white',
+    backgroundColor: '#ccd9e5'
   },
   menuButton: {
     marginRight: theme.spacing(1)
   },
-  // title: {
-  //   flexGrow: 1
-  // },
   img: {
     width: '300px',
     height: '50px',
     justifyContent: 'flex-start'
-    // flexGrow: 1
-    // marginLeft: theme.spacing()
   },
   buttonStyle: {
     flexGrow: 1,
@@ -42,11 +37,8 @@ const Navbar = ({handleClick, isLoggedIn}) => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed">
+      <AppBar position="fixed" className={classes.root}>
         <Toolbar>
-          {/* <Typography variant="h6" className={classes.title}>
-            TestTakers
-          </Typography> */}
           <img className={classes.img} src="TestTakersBlueLogo.png" />
           {isLoggedIn ? (
             <div className={classes.buttonStyle}>
